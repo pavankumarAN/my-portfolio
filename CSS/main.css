@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+    line-height: 1.5em;
+    /* background-color: papayawhip; */
+}
+
+.navbar {
+    background: darkcyan;
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 700;
+    padding-left: 15px;
+    margin: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-menu {
+    justify-content: flex-end;
+    background: darkcyan;
+}
+
+.nav-menu ul {
+    display: flex;
+}
+
+.nav-menu li {
+    padding: 10px;
+    margin: 10px;
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+
+
+/* Mobile */
+
+@media all and (max-width:450px) {
+    .navbar {
+        display: flex;
+        background: darkcyan;
+    }
+}
